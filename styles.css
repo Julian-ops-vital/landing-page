@@ -126,3 +126,27 @@ button{
     border: 5px #3882f6 solid;
     border-radius: 18px;
 }
+
+.quote{
+    height: 350px;
+    padding: 50px 25%;
+    background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.quote-text{
+    font-size: 36px;
+    font-weight: 300;
+    color: #1f2937;
+    font-style: italic;
+}
+
+.quote-author{
+    width: 100%;
+    text-align: end;
+    font-size: 24px;
+    font-weight: bold;
+}
